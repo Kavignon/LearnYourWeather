@@ -1,0 +1,1 @@
+C:\Users\kevin.avignon\documents\visual studio 2013\Projects\LearnYourWeather\LearnYourWaether\LearnYourWaether.WindowsPhone\LearnYourWaether.WindowsPhone.csproj;neutral

@@ -1,0 +1,284 @@
+﻿<ViewModels:FavoriteViewModel xmlns:ViewModels="using:LearnYourWaether.ViewModels" xmlns:Entities="using:LearnYourWaether.Entities">
+	<ViewModels:FavoriteViewModel.UserFavoriteCities>
+		<Entities:FavoriteCity CountryCode="Nulla proin" CurrentTime="01/13/2015 15:12:25" CityName="Habitant parturient lacinia">
+			<Entities:FavoriteCity.CurrentWeather>
+				<Entities:Forecast CityIdentification="54" DataReceivingTime="19" WeatherStation="Sed euismod vestibulum feugiat magnis" cod="23" name="Gravida sem adipiscing morbi iaculis">
+					<Entities:Forecast.Cloudiness>
+						<Entities:Cloudiness CloudinessPercentage="47"/>
+					</Entities:Forecast.Cloudiness>
+					<Entities:Forecast.Coordinates>
+						<Entities:Coordinates Lontitude="213.93" Latitude="680.92"/>
+					</Entities:Forecast.Coordinates>
+					<Entities:Forecast.Rain>
+						<Entities:Rain LastThreeHours="998.22"/>
+					</Entities:Forecast.Rain>
+					<Entities:Forecast.Weather>
+						<Entities:Weather WeatherParametersGroup="Sed cras aliquam curabitur" WeatherConditionIcon="Integer parturient" WeatherConditionId="27" WeatherCondtionGroupDescription="Aenean duis vestibulum" WeatherConditionIconID="Adipiscing mauris nunc phasellus maecenas"/>
+						<Entities:Weather WeatherParametersGroup="Nullam curae amet consequat quisque" WeatherConditionIcon="Convallis est hac diam aliquam" WeatherConditionId="95" WeatherCondtionGroupDescription="Ante arcu donec dis praesent" WeatherConditionIconID="Aptent accumsan vivamus auctor etiam"/>
+						<Entities:Weather WeatherParametersGroup="Congue cursus leo bibendum fusce" WeatherConditionIcon="Elit dignissim blandit" WeatherConditionId="78" WeatherCondtionGroupDescription="Aliquet eget dictumst" WeatherConditionIconID="Lorem dictum"/>
+						<Entities:Weather WeatherParametersGroup="Eleifend mus" WeatherConditionIcon="Eros fermentum libero fringilla" WeatherConditionId="99" WeatherCondtionGroupDescription="Facilisi enim nec lectus elementum" WeatherConditionIconID="Erat facilisis"/>
+						<Entities:Weather WeatherParametersGroup="Commodo ligula conubia cubilia" WeatherConditionIcon="Nisi egestas luctus vestibulum" WeatherConditionId="82" WeatherCondtionGroupDescription="Nibh faucibus litora non" WeatherConditionIconID="Dapibus per"/>
+					</Entities:Forecast.Weather>
+					<Entities:Forecast.WeatherInfomration>
+						<Entities:MainWeatherInformation HumidityPercentage="96" MaximalTemperatureInKelvin="788.26" MinimalTemperatureInKelvin="950.64" Pressure="276.69" Temperature="994.89"/>
+					</Entities:Forecast.WeatherInfomration>
+					<Entities:Forecast.sys>
+						<Entities:Sys country="Nam class" id="68" message="490.65" sunset="99" sunrise="49" type="21"/>
+					</Entities:Forecast.sys>
+				</Entities:Forecast>
+			</Entities:FavoriteCity.CurrentWeather>
+		</Entities:FavoriteCity>
+		<Entities:FavoriteCity CountryCode="Per eget elit sed suscipit" CurrentTime="01/13/2015 15:12:25" CityName="Vivamus nec non">
+			<Entities:FavoriteCity.CurrentWeather>
+				<Entities:Forecast CityIdentification="69" DataReceivingTime="79" WeatherStation="Sociosqu leo ultricies venenatis" cod="24" name="Mus vulputate curabitur adipiscing">
+					<Entities:Forecast.Cloudiness>
+						<Entities:Cloudiness CloudinessPercentage="13"/>
+					</Entities:Forecast.Cloudiness>
+					<Entities:Forecast.Coordinates>
+						<Entities:Coordinates Lontitude="823.65" Latitude="965.41"/>
+					</Entities:Forecast.Coordinates>
+					<Entities:Forecast.Rain>
+						<Entities:Rain LastThreeHours="210.03"/>
+					</Entities:Forecast.Rain>
+					<Entities:Forecast.Weather>
+						<Entities:Weather WeatherParametersGroup="Vestibulum interdum sit lobortis" WeatherConditionIcon="Posuere potenti pretium mauris habitasse" WeatherConditionId="64" WeatherCondtionGroupDescription="Odio mattis" WeatherConditionIconID="Dolor natoque vel nam"/>
+						<Entities:Weather WeatherParametersGroup="Nascetur hendrerit" WeatherConditionIcon="Pede quam quis" WeatherConditionId="18" WeatherCondtionGroupDescription="Rhoncus mollis vestibulum" WeatherConditionIconID="Pharetra placerat orci sed adipiscing"/>
+						<Entities:Weather WeatherParametersGroup="Himenaeos parturient imperdiet vestibulum montes" WeatherConditionIcon="Fames dis cras" WeatherConditionId="69" WeatherCondtionGroupDescription="Vestibulum adipiscing" WeatherConditionIconID="Nostra sodales urna"/>
+						<Entities:Weather WeatherParametersGroup="Viverra malesuada felis parturient est" WeatherConditionIcon="Vestibulum justo platea" WeatherConditionId="82" WeatherCondtionGroupDescription="Ornare duis aliquam" WeatherConditionIconID="Pulvinar penatibus sagittis porttitor ipsum"/>
+						<Entities:Weather WeatherParametersGroup="Vestibulum tincidunt hac lacus nunc" WeatherConditionIcon="Quisque magna massa" WeatherConditionId="78" WeatherCondtionGroupDescription="Tristique amet ante integer" WeatherConditionIconID="Arcu senectus primis lorem diam"/>
+					</Entities:Forecast.Weather>
+					<Entities:Forecast.WeatherInfomration>
+						<Entities:MainWeatherInformation HumidityPercentage="38" MaximalTemperatureInKelvin="975.58" MinimalTemperatureInKelvin="238.37" Pressure="542.35" Temperature="192.77"/>
+					</Entities:Forecast.WeatherInfomration>
+					<Entities:Forecast.sys>
+						<Entities:Sys country="Inceptos augue nisl nunc laoreet" id="21" message="471.68" sunset="63" sunrise="62" type="97"/>
+					</Entities:Forecast.sys>
+				</Entities:Forecast>
+			</Entities:FavoriteCity.CurrentWeather>
+		</Entities:FavoriteCity>
+		<Entities:FavoriteCity CountryCode="Class gravida" CurrentTime="01/13/2015 15:12:25" CityName="Amet vitae est">
+			<Entities:FavoriteCity.CurrentWeather>
+				<Entities:Forecast CityIdentification="86" DataReceivingTime="39" WeatherStation="Himenaeos faucibus urna" cod="45" name="Imperdiet cras duis nunc">
+					<Entities:Forecast.Cloudiness>
+						<Entities:Cloudiness CloudinessPercentage="87"/>
+					</Entities:Forecast.Cloudiness>
+					<Entities:Forecast.Coordinates>
+						<Entities:Coordinates Lontitude="622.77" Latitude="635.61"/>
+					</Entities:Forecast.Coordinates>
+					<Entities:Forecast.Rain>
+						<Entities:Rain LastThreeHours="385.08"/>
+					</Entities:Forecast.Rain>
+					<Entities:Forecast.Weather>
+						<Entities:Weather WeatherParametersGroup="Torquent vestibulum phasellus" WeatherConditionIcon="Aliquet neque semper" WeatherConditionId="99" WeatherCondtionGroupDescription="Ultrices sem sapien" WeatherConditionIconID="Vestibulum consequat vehicula morbi"/>
+						<Entities:Weather WeatherParametersGroup="Sociis blandit convallis" WeatherConditionIcon="Praesent vel erat tempor nam" WeatherConditionId="33" WeatherCondtionGroupDescription="Taciti volutpat dignissim sit enim" WeatherConditionIconID="Tellus maecenas"/>
+						<Entities:Weather WeatherParametersGroup="Commodo elementum netus" WeatherConditionIcon="Facilisis dictumst fermentum" WeatherConditionId="88" WeatherCondtionGroupDescription="Conubia eros adipiscing" WeatherConditionIconID="Accumsan bibendum nibh nisi"/>
+						<Entities:Weather WeatherParametersGroup="Sed nulla porta cubilia fringilla" WeatherConditionIcon="Risus odio" WeatherConditionId="15" WeatherCondtionGroupDescription="Dapibus eleifend egestas nisl nunc" WeatherConditionIconID="Purus facilisi"/>
+						<Entities:Weather WeatherParametersGroup="Orci velit" WeatherConditionIcon="Adipiscing quis feugiat hendrerit" WeatherConditionId="44" WeatherCondtionGroupDescription="Pede euismod parturient" WeatherConditionIconID="Dis vestibulum quam habitasse vestibulum"/>
+					</Entities:Forecast.Weather>
+					<Entities:Forecast.WeatherInfomration>
+						<Entities:MainWeatherInformation HumidityPercentage="34" MaximalTemperatureInKelvin="787.2" MinimalTemperatureInKelvin="828.24" Pressure="697.76" Temperature="182.98"/>
+					</Entities:Forecast.WeatherInfomration>
+					<Entities:Forecast.sys>
+						<Entities:Sys country="Parturient aliquam rutrum metus" id="86" message="649.36" sunset="43" sunrise="11" type="72"/>
+					</Entities:Forecast.sys>
+				</Entities:Forecast>
+			</Entities:FavoriteCity.CurrentWeather>
+		</Entities:FavoriteCity>
+		<Entities:FavoriteCity CountryCode="Lectus vestibulum dignissim sociosqu libero" CurrentTime="01/13/2015 15:12:25" CityName="Senectus massa parturient metus">
+			<Entities:FavoriteCity.CurrentWeather>
+				<Entities:Forecast CityIdentification="34" DataReceivingTime="74" WeatherStation="Cursus adipiscing" cod="38" name="Lacus sodales dictum lorem magna">
+					<Entities:Forecast.Cloudiness>
+						<Entities:Cloudiness CloudinessPercentage="50"/>
+					</Entities:Forecast.Cloudiness>
+					<Entities:Forecast.Coordinates>
+						<Entities:Coordinates Lontitude="137.64" Latitude="690.81"/>
+					</Entities:Forecast.Coordinates>
+					<Entities:Forecast.Rain>
+						<Entities:Rain LastThreeHours="998.27"/>
+					</Entities:Forecast.Rain>
+					<Entities:Forecast.Weather>
+						<Entities:Weather WeatherParametersGroup="Habitant hac penatibus porttitor tincidunt" WeatherConditionIcon="Iaculis vestibulum ultricies turpis" WeatherConditionId="64" WeatherCondtionGroupDescription="Tortor donec" WeatherConditionIconID="Parturient inceptos tristique"/>
+						<Entities:Weather WeatherParametersGroup="Varius lacinia" WeatherConditionIcon="Mauris mus parturient nec non" WeatherConditionId="66" WeatherCondtionGroupDescription="Interdum leo" WeatherConditionIconID="Vestibulum venenatis laoreet adipiscing aenean"/>
+						<Entities:Weather WeatherParametersGroup="Per etiam" WeatherConditionIcon="Nulla aptent nascetur" WeatherConditionId="44" WeatherCondtionGroupDescription="Fusce lorem nullam vulputate" WeatherConditionIconID="Ante curabitur arcu morbi lobortis"/>
+						<Entities:Weather WeatherParametersGroup="Natoque sed posuere proin augue" WeatherConditionIcon="Placerat consequat pulvinar" WeatherConditionId="85" WeatherCondtionGroupDescription="Pharetra vestibulum auctor potenti" WeatherConditionIconID="Congue phasellus"/>
+						<Entities:Weather WeatherParametersGroup="Pretium dolor sagittis" WeatherConditionIcon="Rhoncus justo" WeatherConditionId="77" WeatherCondtionGroupDescription="Convallis fames felis" WeatherConditionIconID="Vestibulum ipsum"/>
+					</Entities:Forecast.Weather>
+					<Entities:Forecast.WeatherInfomration>
+						<Entities:MainWeatherInformation HumidityPercentage="50" MaximalTemperatureInKelvin="439.82" MinimalTemperatureInKelvin="114.2" Pressure="864.79" Temperature="727.39"/>
+					</Entities:Forecast.WeatherInfomration>
+					<Entities:Forecast.sys>
+						<Entities:Sys country="Malesuada tempus curae" id="65" message="242.42" sunset="46" sunrise="90" type="93"/>
+					</Entities:Forecast.sys>
+				</Entities:Forecast>
+			</Entities:FavoriteCity.CurrentWeather>
+		</Entities:FavoriteCity>
+		<Entities:FavoriteCity CountryCode="Etiam bibendum dictumst aliquet" CurrentTime="01/13/2015 15:12:25" CityName="Nisl nostra ornare nec">
+			<Entities:FavoriteCity.CurrentWeather>
+				<Entities:Forecast CityIdentification="35" DataReceivingTime="30" WeatherStation="Imperdiet parturient malesuada montes accumsan" cod="91" name="Vestibulum donec">
+					<Entities:Forecast.Cloudiness>
+						<Entities:Cloudiness CloudinessPercentage="19"/>
+					</Entities:Forecast.Cloudiness>
+					<Entities:Forecast.Coordinates>
+						<Entities:Coordinates Lontitude="335.66" Latitude="884.47"/>
+					</Entities:Forecast.Coordinates>
+					<Entities:Forecast.Rain>
+						<Entities:Rain LastThreeHours="860.31"/>
+					</Entities:Forecast.Rain>
+					<Entities:Forecast.Weather>
+						<Entities:Weather WeatherParametersGroup="Vestibulum ligula elementum" WeatherConditionIcon="Parturient vel" WeatherConditionId="35" WeatherCondtionGroupDescription="Sit litora diam" WeatherConditionIconID="Facilisis torquent adipiscing"/>
+						<Entities:Weather WeatherParametersGroup="Fermentum morbi aliquam" WeatherConditionIcon="Porta sed elit" WeatherConditionId="64" WeatherCondtionGroupDescription="Eget fringilla neque netus" WeatherConditionIconID="Nulla nam"/>
+						<Entities:Weather WeatherParametersGroup="Luctus vestibulum" WeatherConditionIcon="Risus integer quisque adipiscing" WeatherConditionId="37" WeatherCondtionGroupDescription="Magnis enim mattis" WeatherConditionIconID="Habitasse erat vestibulum purus"/>
+						<Entities:Weather WeatherParametersGroup="Ultrices parturient vestibulum" WeatherConditionIcon="Nibh dis vestibulum maecenas est" WeatherConditionId="95" WeatherCondtionGroupDescription="Velit vehicula vivamus" WeatherConditionIconID="Mauris volutpat eros"/>
+						<Entities:Weather WeatherParametersGroup="Vitae hac praesent" WeatherConditionIcon="Curae himenaeos" WeatherConditionId="95" WeatherCondtionGroupDescription="Aliquam class hendrerit nisi mollis" WeatherConditionIconID="Leo adipiscing mus"/>
+					</Entities:Forecast.Weather>
+					<Entities:Forecast.WeatherInfomration>
+						<Entities:MainWeatherInformation HumidityPercentage="13" MaximalTemperatureInKelvin="399.22" MinimalTemperatureInKelvin="870.64" Pressure="348.05" Temperature="447.09"/>
+					</Entities:Forecast.WeatherInfomration>
+					<Entities:Forecast.sys>
+						<Entities:Sys country="Sem viverra suscipit" id="20" message="158.05" sunset="47" sunrise="95" type="89"/>
+					</Entities:Forecast.sys>
+				</Entities:Forecast>
+			</Entities:FavoriteCity.CurrentWeather>
+		</Entities:FavoriteCity>
+		<Entities:FavoriteCity CountryCode="Pulvinar duis parturient justo nunc" CurrentTime="01/13/2015 15:12:25" CityName="Adipiscing ipsum">
+			<Entities:FavoriteCity.CurrentWeather>
+				<Entities:Forecast CityIdentification="79" DataReceivingTime="12" WeatherStation="Dis vestibulum imperdiet vestibulum" cod="87" name="Cras est">
+					<Entities:Forecast.Cloudiness>
+						<Entities:Cloudiness CloudinessPercentage="24"/>
+					</Entities:Forecast.Cloudiness>
+					<Entities:Forecast.Coordinates>
+						<Entities:Coordinates Lontitude="458.05" Latitude="934.63"/>
+					</Entities:Forecast.Coordinates>
+					<Entities:Forecast.Rain>
+						<Entities:Rain LastThreeHours="447.17"/>
+					</Entities:Forecast.Rain>
+					<Entities:Forecast.Weather>
+						<Entities:Weather WeatherParametersGroup="Odio porttitor tincidunt tristique vestibulum" WeatherConditionIcon="Orci vulputate" WeatherConditionId="32" WeatherCondtionGroupDescription="Blandit eleifend lorem" WeatherConditionIconID="Ultricies venenatis"/>
+						<Entities:Weather WeatherParametersGroup="Adipiscing morbi" WeatherConditionIcon="Proin phasellus consequat commodo" WeatherConditionId="33" WeatherCondtionGroupDescription="Platea curabitur facilisi faucibus nulla" WeatherConditionIconID="Habitant primis non"/>
+						<Entities:Weather WeatherParametersGroup="Inceptos augue conubia" WeatherConditionIcon="Sed fames dignissim" WeatherConditionId="89" WeatherCondtionGroupDescription="Per interdum pede dolor lobortis" WeatherConditionIconID="Convallis rutrum parturient vestibulum"/>
+						<Entities:Weather WeatherParametersGroup="Sapien sem cubilia vestibulum dapibus" WeatherConditionIcon="Quis sociis sit vel felis" WeatherConditionId="23" WeatherCondtionGroupDescription="Semper elementum adipiscing parturient" WeatherConditionIconID="Vestibulum facilisis vestibulum quam fermentum"/>
+						<Entities:Weather WeatherParametersGroup="Fringilla taciti nascetur pharetra nam" WeatherConditionIcon="Placerat parturient himenaeos" WeatherConditionId="47" WeatherCondtionGroupDescription="Sed egestas urna tellus adipiscing" WeatherConditionIconID="Habitasse hendrerit"/>
+					</Entities:Forecast.Weather>
+					<Entities:Forecast.WeatherInfomration>
+						<Entities:MainWeatherInformation HumidityPercentage="67" MaximalTemperatureInKelvin="664.25" MinimalTemperatureInKelvin="649.18" Pressure="465.35" Temperature="905.47"/>
+					</Entities:Forecast.WeatherInfomration>
+					<Entities:Forecast.sys>
+						<Entities:Sys country="Nunc penatibus fusce" id="37" message="655.81" sunset="35" sunrise="76" type="76"/>
+					</Entities:Forecast.sys>
+				</Entities:Forecast>
+			</Entities:FavoriteCity.CurrentWeather>
+		</Entities:FavoriteCity>
+		<Entities:FavoriteCity CountryCode="Pretium auctor congue rhoncus" CurrentTime="01/13/2015 15:12:25" CityName="Fermentum aptent">
+			<Entities:FavoriteCity.CurrentWeather>
+				<Entities:Forecast CityIdentification="18" DataReceivingTime="31" WeatherStation="Parturient velit potenti nisi" cod="97" name="Nam ultrices vitae class">
+					<Entities:Forecast.Cloudiness>
+						<Entities:Cloudiness CloudinessPercentage="13"/>
+					</Entities:Forecast.Cloudiness>
+					<Entities:Forecast.Coordinates>
+						<Entities:Coordinates Lontitude="853.48" Latitude="774.33"/>
+					</Entities:Forecast.Coordinates>
+					<Entities:Forecast.Rain>
+						<Entities:Rain LastThreeHours="893.72"/>
+					</Entities:Forecast.Rain>
+					<Entities:Forecast.Weather>
+						<Entities:Weather WeatherParametersGroup="Vestibulum malesuada penatibus euismod" WeatherConditionIcon="Leo lorem magna mus nec" WeatherConditionId="99" WeatherCondtionGroupDescription="Tempor senectus" WeatherConditionIconID="Lacus tempus porttitor"/>
+						<Entities:Weather WeatherParametersGroup="Amet ante adipiscing" WeatherConditionIcon="Diam parturient per vestibulum gravida" WeatherConditionId="59" WeatherCondtionGroupDescription="Massa sociosqu" WeatherConditionIconID="Arcu feugiat non tincidunt"/>
+						<Entities:Weather WeatherParametersGroup="Eget tristique metus morbi" WeatherConditionIcon="Turpis neque suscipit varius sed" WeatherConditionId="26" WeatherCondtionGroupDescription="Ultricies venenatis vulputate" WeatherConditionIconID="Vestibulum curabitur tortor"/>
+						<Entities:Weather WeatherParametersGroup="Elit phasellus iaculis" WeatherConditionIcon="Dignissim sit laoreet" WeatherConditionId="34" WeatherCondtionGroupDescription="Netus lacinia sem consequat nulla" WeatherConditionIconID="Convallis enim aenean mauris"/>
+						<Entities:Weather WeatherParametersGroup="Natoque porta" WeatherConditionIcon="Purus nibh risus nullam" WeatherConditionId="39" WeatherCondtionGroupDescription="Elementum facilisis erat vel torquent" WeatherConditionIconID="Adipiscing posuere eros"/>
+					</Entities:Forecast.Weather>
+					<Entities:Forecast.WeatherInfomration>
+						<Entities:MainWeatherInformation HumidityPercentage="49" MaximalTemperatureInKelvin="385.69" MinimalTemperatureInKelvin="343.63" Pressure="746.06" Temperature="504.83"/>
+					</Entities:Forecast.WeatherInfomration>
+					<Entities:Forecast.sys>
+						<Entities:Sys country="Vestibulum sagittis hac" id="60" message="504.88" sunset="35" sunrise="93" type="19"/>
+					</Entities:Forecast.sys>
+				</Entities:Forecast>
+			</Entities:FavoriteCity.CurrentWeather>
+		</Entities:FavoriteCity>
+		<Entities:FavoriteCity CountryCode="Vestibulum habitant lacus commodo" CurrentTime="01/13/2015 15:12:25" CityName="Ante faucibus">
+			<Entities:FavoriteCity.CurrentWeather>
+				<Entities:Forecast CityIdentification="49" DataReceivingTime="10" WeatherStation="Aliquet blandit duis nunc per" cod="76" name="Amet luctus facilisi">
+					<Entities:Forecast.Cloudiness>
+						<Entities:Cloudiness CloudinessPercentage="52"/>
+					</Entities:Forecast.Cloudiness>
+					<Entities:Forecast.Coordinates>
+						<Entities:Coordinates Lontitude="205.56" Latitude="957.25"/>
+					</Entities:Forecast.Coordinates>
+					<Entities:Forecast.Rain>
+						<Entities:Rain LastThreeHours="951.2"/>
+					</Entities:Forecast.Rain>
+					<Entities:Forecast.Weather>
+						<Entities:Weather WeatherParametersGroup="Dis vestibulum" WeatherConditionIcon="Dictum hendrerit est" WeatherConditionId="41" WeatherCondtionGroupDescription="Donec fringilla nisl" WeatherConditionIconID="Sodales habitasse etiam vestibulum"/>
+						<Entities:Weather WeatherParametersGroup="Hac fusce himenaeos lectus imperdiet" WeatherConditionIcon="Nulla ligula proin" WeatherConditionId="52" WeatherCondtionGroupDescription="Adipiscing malesuada penatibus lorem porttitor" WeatherConditionIconID="Libero morbi"/>
+						<Entities:Weather WeatherParametersGroup="Augue vehicula volutpat nunc" WeatherConditionIcon="Accumsan vestibulum" WeatherConditionId="19" WeatherCondtionGroupDescription="Parturient odio tincidunt orci" WeatherConditionIconID="Dolor vestibulum maecenas praesent tristique"/>
+						<Entities:Weather WeatherParametersGroup="Leo fames viverra felis ultricies" WeatherConditionIcon="Litora nec" WeatherConditionId="49" WeatherCondtionGroupDescription="Mus bibendum adipiscing dictumst aliquam" WeatherConditionIconID="Pede integer quam quis"/>
+						<Entities:Weather WeatherParametersGroup="Quisque eleifend urna vivamus" WeatherConditionIcon="Venenatis justo non" WeatherConditionId="73" WeatherCondtionGroupDescription="Aliquam ipsum" WeatherConditionIconID="Cras parturient"/>
+					</Entities:Forecast.Weather>
+					<Entities:Forecast.WeatherInfomration>
+						<Entities:MainWeatherInformation HumidityPercentage="25" MaximalTemperatureInKelvin="958.85" MinimalTemperatureInKelvin="370.83" Pressure="645.84" Temperature="359.83"/>
+					</Entities:Forecast.WeatherInfomration>
+					<Entities:Forecast.sys>
+						<Entities:Sys country="Sed curae cursus" id="87" message="477.68" sunset="44" sunrise="37" type="70"/>
+					</Entities:Forecast.sys>
+				</Entities:Forecast>
+			</Entities:FavoriteCity.CurrentWeather>
+		</Entities:FavoriteCity>
+		<Entities:FavoriteCity CountryCode="Habitasse hendrerit eros nibh nisi" CurrentTime="01/13/2015 15:12:25" CityName="Fringilla taciti">
+			<Entities:FavoriteCity.CurrentWeather>
+				<Entities:Forecast CityIdentification="75" DataReceivingTime="75" WeatherStation="Parturient nulla" cod="52" name="Vestibulum porta purus">
+					<Entities:Forecast.Cloudiness>
+						<Entities:Cloudiness CloudinessPercentage="31"/>
+					</Entities:Forecast.Cloudiness>
+					<Entities:Forecast.Coordinates>
+						<Entities:Coordinates Lontitude="131.86" Latitude="194.5"/>
+					</Entities:Forecast.Coordinates>
+					<Entities:Forecast.Rain>
+						<Entities:Rain LastThreeHours="764.96"/>
+					</Entities:Forecast.Rain>
+					<Entities:Forecast.Weather>
+						<Entities:Weather WeatherParametersGroup="Conubia inceptos interdum" WeatherConditionIcon="Dapibus arcu" WeatherConditionId="85" WeatherCondtionGroupDescription="Cubilia vestibulum" WeatherConditionIconID="Curabitur adipiscing sem sit"/>
+						<Entities:Weather WeatherParametersGroup="Lorem phasellus vel lobortis egestas" WeatherConditionIcon="Magna massa feugiat parturient vestibulum" WeatherConditionId="49" WeatherCondtionGroupDescription="Magnis nam sed mattis mauris" WeatherConditionIconID="Mollis diam montes consequat euismod"/>
+						<Entities:Weather WeatherParametersGroup="Vestibulum convallis metus" WeatherConditionIcon="Leo nostra" WeatherConditionId="86" WeatherCondtionGroupDescription="Gravida eget dis" WeatherConditionIconID="Nascetur est dignissim iaculis hac"/>
+						<Entities:Weather WeatherParametersGroup="Adipiscing mus elementum" WeatherConditionIcon="Laoreet enim natoque" WeatherConditionId="44" WeatherCondtionGroupDescription="Nec non ornare morbi" WeatherConditionIconID="Elit lacinia neque"/>
+						<Entities:Weather WeatherParametersGroup="Netus facilisis platea" WeatherConditionIcon="Sapien semper sociis fermentum" WeatherConditionId="19" WeatherCondtionGroupDescription="Primis pharetra rutrum per placerat" WeatherConditionIconID="Erat posuere potenti"/>
+					</Entities:Forecast.Weather>
+					<Entities:Forecast.WeatherInfomration>
+						<Entities:MainWeatherInformation HumidityPercentage="84" MaximalTemperatureInKelvin="374.72" MinimalTemperatureInKelvin="762.93" Pressure="917.52" Temperature="353.89"/>
+					</Entities:Forecast.WeatherInfomration>
+					<Entities:Forecast.sys>
+						<Entities:Sys country="Vulputate sed" id="38" message="306.69" sunset="33" sunrise="32" type="72"/>
+					</Entities:Forecast.sys>
+				</Entities:Forecast>
+			</Entities:FavoriteCity.CurrentWeather>
+		</Entities:FavoriteCity>
+		<Entities:FavoriteCity CountryCode="Nulla proin auctor blandit" CurrentTime="01/13/2015 15:12:25" CityName="Aptent aliquet adipiscing">
+			<Entities:FavoriteCity.CurrentWeather>
+				<Entities:Forecast CityIdentification="78" DataReceivingTime="36" WeatherStation="Morbi vivamus" cod="69" name="Aliquam vestibulum">
+					<Entities:Forecast.Cloudiness>
+						<Entities:Cloudiness CloudinessPercentage="71"/>
+					</Entities:Forecast.Cloudiness>
+					<Entities:Forecast.Coordinates>
+						<Entities:Coordinates Lontitude="350.14" Latitude="322.67"/>
+					</Entities:Forecast.Coordinates>
+					<Entities:Forecast.Rain>
+						<Entities:Rain LastThreeHours="249.82"/>
+					</Entities:Forecast.Rain>
+					<Entities:Forecast.Weather>
+						<Entities:Weather WeatherParametersGroup="Himenaeos tempus senectus imperdiet malesuada" WeatherConditionIcon="Porttitor tortor" WeatherConditionId="25" WeatherCondtionGroupDescription="Sociosqu risus penatibus pretium" WeatherConditionIconID="Sed suscipit"/>
+						<Entities:Weather WeatherParametersGroup="Velit torquent ultrices sem" WeatherConditionIcon="Vehicula adipiscing" WeatherConditionId="91" WeatherCondtionGroupDescription="Rhoncus nisl vitae class" WeatherConditionIconID="Nunc vestibulum"/>
+						<Entities:Weather WeatherParametersGroup="Sit volutpat" WeatherConditionIcon="Nam maecenas praesent" WeatherConditionId="52" WeatherCondtionGroupDescription="Odio turpis curae" WeatherConditionIconID="Varius parturient tincidunt vel tristique"/>
+						<Entities:Weather WeatherParametersGroup="Vestibulum donec" WeatherConditionIcon="Sodales viverra orci pede mauris" WeatherConditionId="60" WeatherCondtionGroupDescription="Vestibulum sed accumsan etiam" WeatherConditionIconID="Dis bibendum fusce aenean"/>
+						<Entities:Weather WeatherParametersGroup="Quam quis aliquam" WeatherConditionIcon="Nullam lorem quisque ultricies vestibulum" WeatherConditionId="40" WeatherCondtionGroupDescription="Integer adipiscing parturient" WeatherConditionIconID="Dictumst est hac"/>
+					</Entities:Forecast.Weather>
+					<Entities:Forecast.WeatherInfomration>
+						<Entities:MainWeatherInformation HumidityPercentage="80" MaximalTemperatureInKelvin="672.29" MinimalTemperatureInKelvin="479.61" Pressure="231.38" Temperature="893.61"/>
+					</Entities:Forecast.WeatherInfomration>
+					<Entities:Forecast.sys>
+						<Entities:Sys country="Pulvinar sagittis tellus tempor" id="37" message="339.71" sunset="10" sunrise="31" type="98"/>
+					</Entities:Forecast.sys>
+				</Entities:Forecast>
+			</Entities:FavoriteCity.CurrentWeather>
+		</Entities:FavoriteCity>
+	</ViewModels:FavoriteViewModel.UserFavoriteCities>
+</ViewModels:FavoriteViewModel>

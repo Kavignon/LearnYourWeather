@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>7d72bde0-7c9a-4e77-b9bd-b21e820509d8</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>LearnYourWaether</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Business\FavoriteService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Business\IServiceProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Business\SearchService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Business\ShowForecastService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Client\CityWeatherClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Client\ICityWeatherClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\City.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\DailyForecast.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\HourlyForecast.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Weather.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\WeatherCondition.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\CommonBaseViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ForecastScreenViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\TitleScreenViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ForecastView.xaml.cs">
+      <DependentUpon>ForecastView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\TitleScreen.xaml.cs">
+      <DependentUpon>TitleScreen.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)Views\ForecastView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Views\TitleScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+</Project>

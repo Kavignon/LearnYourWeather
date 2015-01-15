@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>RD76</Machine>
+    <WindowsUser>kevin.avignon</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>b05517a7-2510-4a7c-aa65-6638204fa562</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\kevin.avignon\documents\visual studio 2013\Projects\LearnYourWeather\LearnYourWaether\LearnYourWaether.WindowsPhone\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\kevin.avignon\documents\visual studio 2013\Projects\LearnYourWeather\LearnYourWaether\LearnYourWaether.WindowsPhone\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\kevin.avignon\documents\visual studio 2013\Projects\LearnYourWeather\LearnYourWaether\LearnYourWaether.WindowsPhone\bin\Debug\LearnYourWaether.WindowsPhone.exe">
+      <PackagePath>LearnYourWaether.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kevin.avignon\documents\visual studio 2013\Projects\LearnYourWeather\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kevin.avignon\documents\visual studio 2013\Projects\LearnYourWeather\LearnYourWaether\LearnYourWaether.WindowsPhone\Assets\convert_256.png">
+      <PackagePath>Assets\convert_256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kevin.avignon\documents\visual studio 2013\Projects\LearnYourWeather\LearnYourWaether\LearnYourWaether.WindowsPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kevin.avignon\documents\visual studio 2013\Projects\LearnYourWeather\LearnYourWaether\LearnYourWaether.WindowsPhone\Assets\Plus Sign-256x256.png">
+      <PackagePath>Assets\Plus Sign-256x256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kevin.avignon\documents\visual studio 2013\Projects\LearnYourWeather\LearnYourWaether\LearnYourWaether.WindowsPhone\Assets\search.png">
+      <PackagePath>Assets\search.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kevin.avignon\documents\visual studio 2013\Projects\LearnYourWeather\LearnYourWaether\LearnYourWaether.WindowsPhone\Assets\Sign-Back-icon.png">
+      <PackagePath>Assets\Sign-Back-icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kevin.avignon\documents\visual studio 2013\Projects\LearnYourWeather\LearnYourWaether\LearnYourWaether.WindowsPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kevin.avignon\documents\visual studio 2013\Projects\LearnYourWeather\LearnYourWaether\LearnYourWaether.WindowsPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kevin.avignon\documents\visual studio 2013\Projects\LearnYourWeather\LearnYourWaether\LearnYourWaether.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kevin.avignon\documents\visual studio 2013\Projects\LearnYourWeather\LearnYourWaether\LearnYourWaether.WindowsPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kevin.avignon\documents\visual studio 2013\Projects\LearnYourWeather\LearnYourWaether\LearnYourWaether.WindowsPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kevin.avignon\documents\visual studio 2013\Projects\LearnYourWeather\LearnYourWaether\LearnYourWaether.WindowsPhone\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kevin.avignon\documents\visual studio 2013\Projects\LearnYourWeather\LearnYourWaether\LearnYourWaether.WindowsPhone\bin\Debug\Views\ForecastView.xbf">
+      <PackagePath>Views\ForecastView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kevin.avignon\documents\visual studio 2013\Projects\LearnYourWeather\LearnYourWaether\LearnYourWaether.WindowsPhone\bin\Debug\Views\FavoritesScreen.xbf">
+      <PackagePath>Views\FavoritesScreen.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kevin.avignon\documents\visual studio 2013\Projects\LearnYourWeather\LearnYourWaether\LearnYourWaether.WindowsPhone\bin\Debug\LearnYourWaether.WindowsPhone.xr.xml">
+      <PackagePath>LearnYourWaether.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kevin.avignon\documents\visual studio 2013\Projects\LearnYourWeather\LearnYourWaether\LearnYourWaether.WindowsPhone\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

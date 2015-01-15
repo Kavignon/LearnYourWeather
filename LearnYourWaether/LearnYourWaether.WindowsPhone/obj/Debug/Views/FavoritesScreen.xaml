@@ -1,0 +1,84 @@
+﻿<Page x:Class="LearnYourWaether.Views.TitleScreen"
+	  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	  xmlns:local="using:LearnYourWaether.Views"
+	  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	  xmlns:converter="using:LearnYourWaether.Business"
+	  mc:Ignorable="d"
+	  d:DataContext="{d:DesignData /SampleData/FavoriteViewModelSampleData.xaml}">
+	<Page.Resources>
+		<converter:KelvinToCelsiusConverter x:Key="KelvinToCelsiusConverter" />
+		<ControlTemplate x:Key="ButtonControlTemplate1"
+						 TargetType="Button">
+			<Grid Height="605"
+				  Margin="0,0,-126.167,0">
+				<Image Margin="10,10,117,566"
+					   Source="ms-appx:///Assets/search.png"
+					   Stretch="Fill" />
+			</Grid>
+		</ControlTemplate>
+		<DataTemplate x:Key="WeatherCityItemTemplate">
+			<Grid Width="359">
+				<Grid>
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="2*" />
+						<ColumnDefinition Width="1*" />
+					</Grid.ColumnDefinitions>
+
+					<StackPanel>
+						<TextBlock  Text="{Binding CurrentTime, FallbackValue=12:38}"
+									HorizontalAlignment="Left"
+									VerticalAlignment="Top"
+									FontSize="12" />
+						<TextBlock Text="{Binding CityName, FallbackValue=Montreal}"
+								   HorizontalAlignment="Left"
+								   VerticalAlignment="Top"
+								   FontSize="18" />
+					</StackPanel>
+					<TextBlock  Text="{Binding CurrentWeather.WeatherInfomration.Temperature, Converter={StaticResource ResourceKey=KelvinToCelsiusConverter}}"
+								HorizontalAlignment="Right"
+								VerticalAlignment="Top"
+								FontSize="30"
+								Height="54"
+								Grid.ColumnSpan="2"
+								Margin="0,0,0.167,0"
+								 />
+				</Grid>
+
+			</Grid>
+		</DataTemplate>
+	</Page.Resources>
+
+	<Grid Background="Blue">
+		<TextBox x:ConnectionId='1'  Name="myTextBox"
+				  HorizontalAlignment="Left"
+				  Margin="10,22,0,0"
+				  TextWrapping="Wrap"
+				  VerticalAlignment="Top"
+				  Width="303"
+				                               
+				  PlaceholderText="Enter city name, country code" />
+		<Button x:ConnectionId='2' Content="Button"
+				HorizontalAlignment="Left"
+				Margin="323,21,0,0"
+				MinHeight="18"
+				MinWidth="20"
+				VerticalAlignment="Top"
+				Width="51"
+				Template="{StaticResource ButtonControlTemplate1}"
+				Height="39"
+				                     />
+		<ListView x:ConnectionId='3' HorizontalAlignment="Left"
+				  Height="533"
+				  Margin="10,97,0,0"
+				  VerticalAlignment="Top"
+				  Width="364"
+				  ItemTemplate="{StaticResource WeatherCityItemTemplate}"
+				  ItemsSource="{Binding UserFavoriteCities}"
+				                                               />
+
+
+	</Grid>
+</Page>
+

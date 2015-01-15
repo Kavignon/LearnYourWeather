@@ -1,0 +1,36 @@
+﻿<ViewModels:ForecastScreenViewModel xmlns:ViewModels="using:LearnYourWaether.ViewModels" xmlns:Entities="using:LearnYourWaether.Entities">
+	<ViewModels:ForecastScreenViewModel.Forecast>
+		<Entities:Forecast CityIdentification="36" DataReceivingTime="46" WeatherStation="Dictum imperdiet malesuada felis sociosqu" cod="71" name="Penatibus ipsum">
+			<Entities:Forecast.Cloudiness>
+				<Entities:Cloudiness CloudinessPercentage="40"/>
+			</Entities:Forecast.Cloudiness>
+			<Entities:Forecast.Coordinates>
+				<Entities:Coordinates Lontitude="695.35" Latitude="310.71"/>
+			</Entities:Forecast.Coordinates>
+			<Entities:Forecast.Rain>
+				<Entities:Rain LastThreeHours="607.59"/>
+			</Entities:Forecast.Rain>
+			<Entities:Forecast.Weather>
+				<Entities:Weather WeatherParametersGroup="Vestibulum aliquam" WeatherConditionIcon="Curabitur adipiscing aenean mauris" WeatherConditionId="49" WeatherCondtionGroupDescription="Curae integer donec"/>
+				<Entities:Weather WeatherParametersGroup="Parturient duis vestibulum phasellus vestibulum" WeatherConditionIcon="Quisque bibendum adipiscing" WeatherConditionId="73" WeatherCondtionGroupDescription="Accumsan nunc etiam amet"/>
+				<Entities:Weather WeatherParametersGroup="Parturient vivamus fusce aliquam" WeatherConditionIcon="Sed dictumst ante eleifend facilisi" WeatherConditionId="87" WeatherCondtionGroupDescription="Nullam nam vestibulum"/>
+				<Entities:Weather WeatherParametersGroup="Lorem aptent dis consequat faucibus" WeatherConditionIcon="Morbi vestibulum adipiscing" WeatherConditionId="15" WeatherCondtionGroupDescription="Arcu habitant est"/>
+				<Entities:Weather WeatherParametersGroup="Diam eget convallis parturient inceptos" WeatherConditionIcon="Auctor interdum blandit lobortis hac" WeatherConditionId="32" WeatherCondtionGroupDescription="Elit aliquet"/>
+				<Entities:Weather WeatherParametersGroup="Leo vestibulum mus vestibulum dignissim" WeatherConditionIcon="Proin conubia cubilia dapibus" WeatherConditionId="54" WeatherCondtionGroupDescription="Nec nulla elementum facilisis commodo"/>
+				<Entities:Weather WeatherParametersGroup="Congue egestas" WeatherConditionIcon="Pharetra parturient" WeatherConditionId="29" WeatherCondtionGroupDescription="Non adipiscing nascetur"/>
+				<Entities:Weather WeatherParametersGroup="Placerat enim augue pulvinar" WeatherConditionIcon="Fermentum vestibulum per euismod cursus" WeatherConditionId="67" WeatherCondtionGroupDescription="Erat eros vestibulum nibh"/>
+				<Entities:Weather WeatherParametersGroup="Sed fringilla sagittis nisi habitasse" WeatherConditionIcon="Senectus vestibulum odio" WeatherConditionId="80" WeatherCondtionGroupDescription="Adipiscing parturient nisl nunc"/>
+				<Entities:Weather WeatherParametersGroup="Dolor sem hendrerit vestibulum" WeatherConditionIcon="Sit vel" WeatherConditionId="49" WeatherCondtionGroupDescription="Fames himenaeos adipiscing"/>
+			</Entities:Forecast.Weather>
+			<Entities:Forecast.WeatherInfomration>
+				<Entities:MainWeatherInformation HumidityPercentage="51" MaximalTemperatureInKelvin="380.6" MinimalTemperatureInKelvin="617.34" Pressure="905.98" Temperature="740.03"/>
+			</Entities:Forecast.WeatherInfomration>
+			<Entities:Forecast.sys>
+				<Entities:Sys country="Maecenas cras class praesent" id="94" message="364.62" sunset="54" sunrise="63" type="22"/>
+			</Entities:Forecast.sys>
+		</Entities:Forecast>
+	</ViewModels:ForecastScreenViewModel.Forecast>
+	<ViewModels:ForecastScreenViewModel.SelectedCity>
+		<Entities:City CountryCode="Nam pede" CityName="Suscipit parturient feugiat orci"/>
+	</ViewModels:ForecastScreenViewModel.SelectedCity>
+</ViewModels:ForecastScreenViewModel>
